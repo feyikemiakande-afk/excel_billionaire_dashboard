@@ -5,7 +5,7 @@ This project analyses global billionaire data to explore how wealth is distribut
 
 ---
 
-## Business Objective
+## Analytical Objective
 To enable users to compare billionaire wealth distribution across countries, industries, gender, and sources of wealth using clear KPIs and interactive visuals.
 
 ---
@@ -21,8 +21,10 @@ Global billionaire data including rank, net worth, country, industry, source of 
 ---
 
 ## Analysis Performed
-- Cleaned and structured raw data
-- Aggregated net worth and age metrics
+- Cleaned and structured raw data (
+  - Audited and cleaned the raw dataset by identifying and correcting missing values, inconsistent categories, and formatting issues 
+- Standardised country, industry, and source of wealth labels to ensure accurate grouping and aggregation
+- Converted key fields such as net worth and age into numeric formats suitable for analysis
 - Calculated total and average net worth and average age
 - Ranked individuals for comparative analysis
 - Enabled dynamic recalculation using slicers
@@ -37,7 +39,7 @@ Global billionaire data including rank, net worth, country, industry, source of 
 
 ---
 
-## Key Business Questions
+## Exploratory Questions
 - How concentrated is billionaire wealth across countries?
 - Which industries contribute most to total net worth?
 - How does wealth distribution vary by gender and source?
@@ -59,16 +61,16 @@ Global billionaire data including rank, net worth, country, industry, source of 
 - Male billionaires hold most total net worth
 - Wealth accumulation occurs over time
 
-**What It Means**
+**Data Interpretation**
 - Selecting different countries reveals regional concentration differences
 - Industry filters show which sectors drive wealth in each country
 - Demographic filters highlight shifts in distribution patterns
 
 ---
 
-## AS-IS / TO-BE (Analytical View)
-- **AS-IS:** Static summaries limit structured comparison  
-- **TO-BE:** Interactive filters enable dynamic exploration across variables  
+## Exploratory Analysis (Analytical View)
+- **Baseline View:** Static summaries limit structured comparison  
+- **Interactive View:** Interactive filters enable dynamic exploration across variables  
 
 ---
 
